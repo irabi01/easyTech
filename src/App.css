@@ -11,6 +11,12 @@
 nav.navigation  div ul li .nav-link{
   color: #000;
 }
+nav.navigation  div ul li:hover{
+  background: #3399ff;
+}
+nav.navigation  div ul li:hover .nav-link{
+  color: #fff;
+}
 .cpBtn{
   padding: 2px 5px;
   outline: none;
@@ -32,7 +38,7 @@ nav.navigation  div ul li .nav-link{
   text-align: center;
 }
 .homepage_top h1{
-  font-size: 70px;
+  font-size: 80px;
 }
 .homepage_top .gotocontact{
   margin-top: 50px;
@@ -116,4 +122,14 @@ nav.navigation  div ul li .nav-link{
   background: #3189e0;
   color: #fff;
   text-decoration: none;
+}
+
+
+
+.footer_component{
+  /* background: #5da4eb; */
+  background: #000;
+  color: #fff;
+  text-align: center;
+  padding: 100px 0px;
 }

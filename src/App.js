@@ -7,6 +7,11 @@ import HomePage from './pages/HomePage';
 import AboutPage from './pages/AboutPage'
 import WorksPage from './pages/WorksPage';
 import ContactPage from './pages/ContactPage';
+import Footer from './components/Footer';
+import { library } from '@fortawesome/fontawesome-svg-core'
+import { faCopyright } from '@fortawesome/free-solid-svg-icons'
+library.add( faCopyright )
+
 
 function App() {
   return (
@@ -20,6 +25,7 @@ function App() {
           <Route path="/contact" component = {ContactPage}/>
 
         </Switch>
+        <Footer/>
       </div>
     </Router>
   );
